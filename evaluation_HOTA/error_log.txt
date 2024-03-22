@@ -1,0 +1,589 @@
+Kitti2DBox
+sha_key
+Traceback (most recent call last):
+  File "/media/lab509-2/6t/ZRL/CasTrack/evaluation_HOTA/trackeval/eval.py", line 151, in evaluate
+    output_fol)
+  File "/media/lab509-2/6t/ZRL/CasTrack/evaluation_HOTA/trackeval/metrics/hota.py", line 185, in plot_single_tracker_results
+    from matplotlib import pyplot as plt
+ModuleNotFoundError: No module named 'matplotlib'
+
+
+
+
+
+Kitti2DBox
+DeepFusionMOT
+Traceback (most recent call last):
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/eval.py", line 90, in evaluate
+    metric_names)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/_timing.py", line 16, in wrap
+    result = f(*args, **kw)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/eval.py", line 194, in eval_sequence
+    data = dataset.get_preprocessed_seq_data(raw_data, cls)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/_timing.py", line 16, in wrap
+    result = f(*args, **kw)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/datasets/kitti_2d_box.py", line 384, in get_preprocessed_seq_data
+    self._check_unique_ids(data)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/datasets/_base_dataset.py", line 310, in _check_unique_ids
+    raise TrackEvalException(exc_str)
+trackeval.utils.TrackEvalException: Tracker predicts the same ID more than once in a single timestep (seq: 0001, frame: 1, ids: 0 2 3)
+
+
+
+
+
+Kitti2DBox
+DeepFusionMOT
+Traceback (most recent call last):
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/eval.py", line 90, in evaluate
+    metric_names)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/_timing.py", line 16, in wrap
+    result = f(*args, **kw)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/eval.py", line 194, in eval_sequence
+    data = dataset.get_preprocessed_seq_data(raw_data, cls)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/_timing.py", line 16, in wrap
+    result = f(*args, **kw)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/datasets/kitti_2d_box.py", line 384, in get_preprocessed_seq_data
+    self._check_unique_ids(data)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/datasets/_base_dataset.py", line 310, in _check_unique_ids
+    raise TrackEvalException(exc_str)
+trackeval.utils.TrackEvalException: Tracker predicts the same ID more than once in a single timestep (seq: 0001, frame: 1, ids: 0 2 3)
+
+
+
+
+
+Kitti2DBox
+DeepFusionMOT
+Traceback (most recent call last):
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/eval.py", line 90, in evaluate
+    metric_names)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/_timing.py", line 16, in wrap
+    result = f(*args, **kw)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/eval.py", line 194, in eval_sequence
+    data = dataset.get_preprocessed_seq_data(raw_data, cls)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/_timing.py", line 16, in wrap
+    result = f(*args, **kw)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/datasets/kitti_2d_box.py", line 384, in get_preprocessed_seq_data
+    self._check_unique_ids(data)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/datasets/_base_dataset.py", line 310, in _check_unique_ids
+    raise TrackEvalException(exc_str)
+trackeval.utils.TrackEvalException: Tracker predicts the same ID more than once in a single timestep (seq: 0001, frame: 1, ids: 0 2 3)
+
+
+
+
+
+Kitti2DBox
+DeepFusionMOT
+Traceback (most recent call last):
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/eval.py", line 90, in evaluate
+    metric_names)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/_timing.py", line 16, in wrap
+    result = f(*args, **kw)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/eval.py", line 194, in eval_sequence
+    data = dataset.get_preprocessed_seq_data(raw_data, cls)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/_timing.py", line 16, in wrap
+    result = f(*args, **kw)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/datasets/kitti_2d_box.py", line 384, in get_preprocessed_seq_data
+    self._check_unique_ids(data)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/datasets/_base_dataset.py", line 310, in _check_unique_ids
+    raise TrackEvalException(exc_str)
+trackeval.utils.TrackEvalException: Tracker predicts the same ID more than once in a single timestep (seq: 0001, frame: 1, ids: 0 2 3)
+
+
+
+
+
+Kitti2DBox
+DeepFusionMOT
+Traceback (most recent call last):
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/eval.py", line 89, in evaluate
+    res[curr_seq] = eval_sequence(curr_seq, dataset, tracker, class_list, metrics_list,
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/_timing.py", line 16, in wrap
+    result = f(*args, **kw)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/eval.py", line 194, in eval_sequence
+    data = dataset.get_preprocessed_seq_data(raw_data, cls)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/_timing.py", line 16, in wrap
+    result = f(*args, **kw)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/datasets/kitti_2d_box.py", line 384, in get_preprocessed_seq_data
+    self._check_unique_ids(data)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/datasets/_base_dataset.py", line 310, in _check_unique_ids
+    raise TrackEvalException(exc_str)
+trackeval.utils.TrackEvalException: Tracker predicts the same ID more than once in a single timestep (seq: 0001, frame: 1, ids: 0 2 3)
+
+
+
+
+
+Kitti2DBox
+DeepFusionMOT
+Traceback (most recent call last):
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/eval.py", line 90, in evaluate
+    metric_names)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/_timing.py", line 16, in wrap
+    result = f(*args, **kw)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/eval.py", line 194, in eval_sequence
+    data = dataset.get_preprocessed_seq_data(raw_data, cls)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/_timing.py", line 16, in wrap
+    result = f(*args, **kw)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/datasets/kitti_2d_box.py", line 384, in get_preprocessed_seq_data
+    self._check_unique_ids(data)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/datasets/_base_dataset.py", line 310, in _check_unique_ids
+    raise TrackEvalException(exc_str)
+trackeval.utils.TrackEvalException: Tracker predicts the same ID more than once in a single timestep (seq: 0001, frame: 1, ids: 0 2 3)
+
+
+
+
+
+Kitti2DBox
+DeepFusionMOT
+Traceback (most recent call last):
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/eval.py", line 90, in evaluate
+    metric_names)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/_timing.py", line 16, in wrap
+    result = f(*args, **kw)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/eval.py", line 194, in eval_sequence
+    data = dataset.get_preprocessed_seq_data(raw_data, cls)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/_timing.py", line 16, in wrap
+    result = f(*args, **kw)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/datasets/kitti_2d_box.py", line 384, in get_preprocessed_seq_data
+    self._check_unique_ids(data)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/datasets/_base_dataset.py", line 310, in _check_unique_ids
+    raise TrackEvalException(exc_str)
+trackeval.utils.TrackEvalException: Tracker predicts the same ID more than once in a single timestep (seq: 0000, frame: 10, ids: 1)
+
+
+
+
+
+Kitti2DBox
+DeepFusionMOT
+Traceback (most recent call last):
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/eval.py", line 90, in evaluate
+    metric_names)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/_timing.py", line 16, in wrap
+    result = f(*args, **kw)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/eval.py", line 194, in eval_sequence
+    data = dataset.get_preprocessed_seq_data(raw_data, cls)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/_timing.py", line 16, in wrap
+    result = f(*args, **kw)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/datasets/kitti_2d_box.py", line 384, in get_preprocessed_seq_data
+    self._check_unique_ids(data)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/datasets/_base_dataset.py", line 310, in _check_unique_ids
+    raise TrackEvalException(exc_str)
+trackeval.utils.TrackEvalException: Tracker predicts the same ID more than once in a single timestep (seq: 0000, frame: 10, ids: 1)
+
+
+
+
+
+Kitti2DBox
+DeepFusionMOT-PV
+Traceback (most recent call last):
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/eval.py", line 90, in evaluate
+    metric_names)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/_timing.py", line 16, in wrap
+    result = f(*args, **kw)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/eval.py", line 194, in eval_sequence
+    data = dataset.get_preprocessed_seq_data(raw_data, cls)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/_timing.py", line 16, in wrap
+    result = f(*args, **kw)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/datasets/kitti_2d_box.py", line 384, in get_preprocessed_seq_data
+    self._check_unique_ids(data)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/datasets/_base_dataset.py", line 310, in _check_unique_ids
+    raise TrackEvalException(exc_str)
+trackeval.utils.TrackEvalException: Tracker predicts the same ID more than once in a single timestep (seq: 0000, frame: 10, ids: 1)
+
+
+
+
+
+Kitti2DBox
+H1.25
+Traceback (most recent call last):
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/eval.py", line 90, in evaluate
+    metric_names)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/_timing.py", line 16, in wrap
+    result = f(*args, **kw)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/eval.py", line 190, in eval_sequence
+    raw_data = dataset.get_raw_seq_data(tracker, seq)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/_timing.py", line 16, in wrap
+    result = f(*args, **kw)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/datasets/_base_dataset.py", line 88, in get_raw_seq_data
+    raw_tracker_data = self._load_raw_file(tracker, seq, is_gt=False)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/datasets/kitti_2d_box.py", line 189, in _load_raw_file
+    [str(x) + ', ' for x in extra_time_keys]))
+trackeval.utils.TrackEvalException: Tracking data contains the following invalid timesteps in seq 0015: 376, 
+
+
+
+
+
+Kitti2DBox
+H1.25
+Traceback (most recent call last):
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/eval.py", line 90, in evaluate
+    metric_names)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/_timing.py", line 16, in wrap
+    result = f(*args, **kw)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/eval.py", line 190, in eval_sequence
+    raw_data = dataset.get_raw_seq_data(tracker, seq)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/_timing.py", line 16, in wrap
+    result = f(*args, **kw)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/datasets/_base_dataset.py", line 88, in get_raw_seq_data
+    raw_tracker_data = self._load_raw_file(tracker, seq, is_gt=False)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/datasets/kitti_2d_box.py", line 189, in _load_raw_file
+    [str(x) + ', ' for x in extra_time_keys]))
+trackeval.utils.TrackEvalException: Tracking data contains the following invalid timesteps in seq 0015: 376, 
+
+
+
+
+
+Kitti2DBox
+ab_0.65_0.35
+Traceback (most recent call last):
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/eval.py", line 90, in evaluate
+    metric_names)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/_timing.py", line 16, in wrap
+    result = f(*args, **kw)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/eval.py", line 194, in eval_sequence
+    data = dataset.get_preprocessed_seq_data(raw_data, cls)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/_timing.py", line 16, in wrap
+    result = f(*args, **kw)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/datasets/kitti_2d_box.py", line 384, in get_preprocessed_seq_data
+    self._check_unique_ids(data)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/datasets/_base_dataset.py", line 310, in _check_unique_ids
+    raise TrackEvalException(exc_str)
+trackeval.utils.TrackEvalException: Tracker predicts the same ID more than once in a single timestep (seq: 0000, frame: 52, ids: 2)
+
+
+
+
+
+Kitti2DBox
+PADF+DSHRF
+Traceback (most recent call last):
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/eval.py", line 90, in evaluate
+    metric_names)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/_timing.py", line 16, in wrap
+    result = f(*args, **kw)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/eval.py", line 194, in eval_sequence
+    data = dataset.get_preprocessed_seq_data(raw_data, cls)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/_timing.py", line 16, in wrap
+    result = f(*args, **kw)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/datasets/kitti_2d_box.py", line 384, in get_preprocessed_seq_data
+    self._check_unique_ids(data)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/datasets/_base_dataset.py", line 310, in _check_unique_ids
+    raise TrackEvalException(exc_str)
+trackeval.utils.TrackEvalException: Tracker predicts the same ID more than once in a single timestep (seq: 0000, frame: 2, ids: 0)
+
+
+
+
+
+Kitti2DBox
+pe30
+Traceback (most recent call last):
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/datasets/_base_dataset.py", line 189, in _load_simple_text_file
+    row[convert_key] = convert_value[row[convert_key].lower()]
+KeyError: '1089.5302'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/datasets/_base_dataset.py", line 199, in _load_simple_text_file
+    raise TrackEvalException(exc_str)
+trackeval.utils.TrackEvalException: In file 0000.txt the following line cannot be read correctly: 
+ 0 1 1089.5302 164.2929 1223.4008 320.8976 0.9925 1.7039 0.8083 0.9746 6.3188 1.6105 8.4549 -8.2434 -8.8678
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/eval.py", line 90, in evaluate
+    metric_names)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/_timing.py", line 16, in wrap
+    result = f(*args, **kw)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/eval.py", line 190, in eval_sequence
+    raw_data = dataset.get_raw_seq_data(tracker, seq)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/_timing.py", line 16, in wrap
+    result = f(*args, **kw)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/datasets/_base_dataset.py", line 88, in get_raw_seq_data
+    raw_tracker_data = self._load_raw_file(tracker, seq, is_gt=False)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/datasets/kitti_2d_box.py", line 170, in _load_raw_file
+    is_zipped=self.data_is_zipped, zip_file=zip_file)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/datasets/_base_dataset.py", line 206, in _load_simple_text_file
+    file))
+trackeval.utils.TrackEvalException: File 0000.txt cannot be read because it is either not present or invalidly formatted
+
+
+
+
+
+Kitti2DBox
+pe30
+Traceback (most recent call last):
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/eval.py", line 90, in evaluate
+    metric_names)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/_timing.py", line 16, in wrap
+    result = f(*args, **kw)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/eval.py", line 194, in eval_sequence
+    data = dataset.get_preprocessed_seq_data(raw_data, cls)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/_timing.py", line 16, in wrap
+    result = f(*args, **kw)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/datasets/kitti_2d_box.py", line 385, in get_preprocessed_seq_data
+    self._check_unique_ids(data)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/datasets/_base_dataset.py", line 310, in _check_unique_ids
+    raise TrackEvalException(exc_str)
+trackeval.utils.TrackEvalException: Tracker predicts the same ID more than once in a single timestep (seq: 0000, frame: 152, ids: 0)
+
+
+
+
+
+Kitti2DBox
+pe30
+Traceback (most recent call last):
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/eval.py", line 90, in evaluate
+    metric_names)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/_timing.py", line 16, in wrap
+    result = f(*args, **kw)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/eval.py", line 194, in eval_sequence
+    data = dataset.get_preprocessed_seq_data(raw_data, cls)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/_timing.py", line 16, in wrap
+    result = f(*args, **kw)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/datasets/kitti_2d_box.py", line 385, in get_preprocessed_seq_data
+    self._check_unique_ids(data)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/datasets/_base_dataset.py", line 310, in _check_unique_ids
+    raise TrackEvalException(exc_str)
+trackeval.utils.TrackEvalException: Tracker predicts the same ID more than once in a single timestep (seq: 0000, frame: 152, ids: 1)
+
+
+
+
+
+Kitti2DBox
+pe30
+Traceback (most recent call last):
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/eval.py", line 90, in evaluate
+    metric_names)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/_timing.py", line 16, in wrap
+    result = f(*args, **kw)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/eval.py", line 194, in eval_sequence
+    data = dataset.get_preprocessed_seq_data(raw_data, cls)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/_timing.py", line 16, in wrap
+    result = f(*args, **kw)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/datasets/kitti_2d_box.py", line 385, in get_preprocessed_seq_data
+    self._check_unique_ids(data)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/datasets/_base_dataset.py", line 310, in _check_unique_ids
+    raise TrackEvalException(exc_str)
+trackeval.utils.TrackEvalException: Tracker predicts the same ID more than once in a single timestep (seq: 0002, frame: 141, ids: 0)
+
+
+
+
+
+Kitti2DBox
+pe30
+Traceback (most recent call last):
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/datasets/_base_dataset.py", line 161, in _load_simple_text_file
+    if row[-1] in '':
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/datasets/_base_dataset.py", line 199, in _load_simple_text_file
+    raise TrackEvalException(exc_str)
+trackeval.utils.TrackEvalException: In file 0003.txt the following line cannot be read correctly: 
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/eval.py", line 90, in evaluate
+    metric_names)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/_timing.py", line 16, in wrap
+    result = f(*args, **kw)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/eval.py", line 190, in eval_sequence
+    raw_data = dataset.get_raw_seq_data(tracker, seq)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/_timing.py", line 16, in wrap
+    result = f(*args, **kw)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/datasets/_base_dataset.py", line 88, in get_raw_seq_data
+    raw_tracker_data = self._load_raw_file(tracker, seq, is_gt=False)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/datasets/kitti_2d_box.py", line 170, in _load_raw_file
+    is_zipped=self.data_is_zipped, zip_file=zip_file)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/datasets/_base_dataset.py", line 206, in _load_simple_text_file
+    file))
+trackeval.utils.TrackEvalException: File 0003.txt cannot be read because it is either not present or invalidly formatted
+
+
+
+
+
+Kitti2DBox
+CasA
+Traceback (most recent call last):
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/eval.py", line 90, in evaluate
+    metric_names)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/_timing.py", line 16, in wrap
+    result = f(*args, **kw)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/eval.py", line 194, in eval_sequence
+    data = dataset.get_preprocessed_seq_data(raw_data, cls)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/_timing.py", line 16, in wrap
+    result = f(*args, **kw)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/datasets/kitti_2d_box.py", line 385, in get_preprocessed_seq_data
+    self._check_unique_ids(data)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/datasets/_base_dataset.py", line 310, in _check_unique_ids
+    raise TrackEvalException(exc_str)
+trackeval.utils.TrackEvalException: Tracker predicts the same ID more than once in a single timestep (seq: 0000, frame: 149, ids: 0)
+
+
+
+
+
+Kitti2DBox
+CasA
+Traceback (most recent call last):
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/eval.py", line 90, in evaluate
+    metric_names)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/_timing.py", line 16, in wrap
+    result = f(*args, **kw)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/eval.py", line 194, in eval_sequence
+    data = dataset.get_preprocessed_seq_data(raw_data, cls)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/_timing.py", line 16, in wrap
+    result = f(*args, **kw)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/datasets/kitti_2d_box.py", line 385, in get_preprocessed_seq_data
+    self._check_unique_ids(data)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/datasets/_base_dataset.py", line 310, in _check_unique_ids
+    raise TrackEvalException(exc_str)
+trackeval.utils.TrackEvalException: Tracker predicts the same ID more than once in a single timestep (seq: 0015, frame: 132, ids: 1)
+
+
+
+
+
+Kitti2DBox
+ALLV2
+Traceback (most recent call last):
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/eval.py", line 90, in evaluate
+    metric_names)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/_timing.py", line 16, in wrap
+    result = f(*args, **kw)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/eval.py", line 194, in eval_sequence
+    data = dataset.get_preprocessed_seq_data(raw_data, cls)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/_timing.py", line 16, in wrap
+    result = f(*args, **kw)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/datasets/kitti_2d_box.py", line 385, in get_preprocessed_seq_data
+    self._check_unique_ids(data)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/datasets/_base_dataset.py", line 310, in _check_unique_ids
+    raise TrackEvalException(exc_str)
+trackeval.utils.TrackEvalException: Tracker predicts the same ID more than once in a single timestep (seq: 0015, frame: 131, ids: 1)
+
+
+
+
+
+Kitti2DBox
+DSHRF
+Traceback (most recent call last):
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/eval.py", line 90, in evaluate
+    metric_names)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/_timing.py", line 16, in wrap
+    result = f(*args, **kw)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/eval.py", line 190, in eval_sequence
+    raw_data = dataset.get_raw_seq_data(tracker, seq)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/_timing.py", line 16, in wrap
+    result = f(*args, **kw)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/datasets/_base_dataset.py", line 88, in get_raw_seq_data
+    raw_tracker_data = self._load_raw_file(tracker, seq, is_gt=False)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/datasets/kitti_2d_box.py", line 190, in _load_raw_file
+    [str(x) + ', ' for x in extra_time_keys]))
+trackeval.utils.TrackEvalException: Tracking data contains the following invalid timesteps in seq 0012: 191, , 192, , 193, , 194, , 195, , 196, , 197, , 198, , 199, , 200, , 201, , 202, , 203, , 204, , 205, , 206, , 207, , 208, , 209, , 210, 
+
+
+
+
+
+Kitti2DBox
+DSHRF
+Traceback (most recent call last):
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/datasets/_base_dataset.py", line 161, in _load_simple_text_file
+    if row[-1] in '':
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/datasets/_base_dataset.py", line 199, in _load_simple_text_file
+    raise TrackEvalException(exc_str)
+trackeval.utils.TrackEvalException: In file 0007.txt the following line cannot be read correctly: 
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/eval.py", line 90, in evaluate
+    metric_names)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/_timing.py", line 16, in wrap
+    result = f(*args, **kw)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/eval.py", line 190, in eval_sequence
+    raw_data = dataset.get_raw_seq_data(tracker, seq)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/_timing.py", line 16, in wrap
+    result = f(*args, **kw)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/datasets/_base_dataset.py", line 88, in get_raw_seq_data
+    raw_tracker_data = self._load_raw_file(tracker, seq, is_gt=False)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/datasets/kitti_2d_box.py", line 170, in _load_raw_file
+    is_zipped=self.data_is_zipped, zip_file=zip_file)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/datasets/_base_dataset.py", line 206, in _load_simple_text_file
+    file))
+trackeval.utils.TrackEvalException: File 0007.txt cannot be read because it is either not present or invalidly formatted
+
+
+
+
+
+Kitti2DBox
+CasA 
+Traceback (most recent call last):
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/eval.py", line 90, in evaluate
+    metric_names)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/_timing.py", line 16, in wrap
+    result = f(*args, **kw)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/eval.py", line 194, in eval_sequence
+    data = dataset.get_preprocessed_seq_data(raw_data, cls)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/_timing.py", line 16, in wrap
+    result = f(*args, **kw)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/datasets/kitti_2d_box.py", line 385, in get_preprocessed_seq_data
+    self._check_unique_ids(data)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/datasets/_base_dataset.py", line 310, in _check_unique_ids
+    raise TrackEvalException(exc_str)
+trackeval.utils.TrackEvalException: Tracker predicts the same ID more than once in a single timestep (seq: 0000, frame: 2, ids: 0)
+
+
+
+
+
+Kitti2DBox
+first
+Traceback (most recent call last):
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/eval.py", line 90, in evaluate
+    metric_names)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/_timing.py", line 16, in wrap
+    result = f(*args, **kw)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/eval.py", line 194, in eval_sequence
+    data = dataset.get_preprocessed_seq_data(raw_data, cls)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/_timing.py", line 16, in wrap
+    result = f(*args, **kw)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/datasets/kitti_2d_box.py", line 385, in get_preprocessed_seq_data
+    self._check_unique_ids(data)
+  File "/media/lab509-2/6t/LHY/CasTrack/evaluation_HOTA/trackeval/datasets/_base_dataset.py", line 310, in _check_unique_ids
+    raise TrackEvalException(exc_str)
+trackeval.utils.TrackEvalException: Tracker predicts the same ID more than once in a single timestep (seq: 0000, frame: 10, ids: 1)
+
+
+
+
+
