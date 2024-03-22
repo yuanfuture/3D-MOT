@@ -74,6 +74,9 @@ the following results will be obtained.
 |       **Car**        |    79.31%    |      83.49%      |     88.60%      |   86.71%  |   87.51%    |    3992     |   513     |     66    |
 |    **Pedestrian**    |    51.79%    |      56.95%      |     78.52%      |   60.36%  |   74.50%    |    7687     |   1317    |    173    |
 
+### Acknowledgement
+
+Refer to [CADDN](https://github.com/TRAILab/CaDDN) for image feature promotion, and refer to [SFD](https://github.com/LittlePey/SFD) and [TWISE](https://github.com/imransai/TWISE) for obtaining pseudo point cloud data. Many thanks to their wonderful work!
 
 ### Citation
 
