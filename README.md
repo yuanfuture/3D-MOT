@@ -54,7 +54,23 @@ The final dataset organization should be like this:
 cd your_path/MCCA-MOT
 pip install -r requirements.txt
 ```
+#### *4. Run*
 
+```
+python main.py
+```
+
+
+#### *5. KITTI MOT Evaluation*
+
+If you want to evaluate the tracking results using the evaluation tool on the KITTI website, you will need to go https://github.com/JonathonLuiten/TrackEval to download the evaluation code and follow the appropriate steps to set.
+
+the following results will be obtained.
+
+|                      | HOAT( **↑)** | **AssA( **↑)**** | **LocA**(**↑)** | MOTA（↑） | MOTP(**↑)** |  FP(**↓)**  |   FN（↓） |  IDSW（↓）|
+| :------------------: | :----------: | :--------------: | :-------------: | :-------: | :---------: | :---------: | :------:  | :------:  |
+|       **Car**        |    79.31%    |      83.49%      |     88.60%      |   86.71%  |   87.51%    |    3992     |   513     |     66    |
+|    **Pedestrian**    |    51.79%    |      56.95%      |     78.52%      |   60.36%  |   74.50%    |    7687     |   1317    |    173    |
 
 
 
