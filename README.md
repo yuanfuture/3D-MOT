@@ -18,12 +18,12 @@ The overall chartffow of the proposed MCCA-MOT approach for 3D multi-object trac
 
 # Dependencies
 Ubuntu 20.04.3 LTS<br>
-Intel(R) Core(TM) i7-11700F @ 2.50GHz<br>  
-NVIDIA GeForce GTX 1080 Ti*2<br>  
-python: 3.8.16<br>  
-pytorch: 1.9.1<br>  
-Torchvision: 0.10.1<br>  
-CUDA: 11.1<br>  
+Intel(R) Core(TM) i7-11700F @ 2.50GHz<br>
+NVIDIA GeForce GTX 1080 Ti*2<br>
+python: 3.8.16<br>
+pytorch: 1.9.1<br>
+Torchvision: 0.10.1<br>
+CUDA: 11.1<br>
 CUDNN: 8.0.5<br>
 
 # Started
