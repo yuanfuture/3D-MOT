@@ -18,19 +18,12 @@ The overall chartffow of the proposed MCCA-MOT approach for 3D multi-object trac
 
 # Dependencies
 Ubuntu 20.04.3 LTS
-
 Intel(R) Core(TM) i7-11700F @ 2.50GHz
-
 NVIDIA GeForce GTX 1080 Ti*2
-
 python: 3.8.16
-
 pytorch: 1.9.1
-
 Torchvision: 0.10.1
-
 CUDA: 11.1
-
 CUDNN: 8.0.5
 
 # Started
@@ -88,7 +81,7 @@ If you find this work useful, please consider to cite our paper:
 
 ```
 @ARTICLE{  
-author={Li, Hui and Liu, Hengyuan and Du, Zhenzhen and Chen, Zhong and Tao, Ye},  
+author={},  
 journal={},   
 title={MCCA-MOT: Multimodal Collaboration-Guided Cascade Association Network for 3D Multi-Object Tracking},   
 year={2024},  volume={},  number={},  pages={},  doi={}
