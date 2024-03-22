@@ -1,0 +1,16 @@
+matplotlib
+mayavi
+numba
+numpy
+opencv-python
+pandas
+pillow
+python
+pyqt5
+pyqt5-qt5
+pyqt5-sip
+scikit-learn
+tensorboard
+torch
+tqmd
+
