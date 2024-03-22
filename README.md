@@ -24,7 +24,7 @@ The overall chartffow of the proposed MCCA-MOT approach for 3D multi-object trac
 ## pytorch: 1.9.1<br>
 ## Torchvision: 0.10.1<br>
 ## CUDA: 11.1<br>
-## CUDNN: 8.0.5<br>
+#### CUDNN: 8.0.5<br>
 
 # Started
 
