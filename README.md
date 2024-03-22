@@ -14,6 +14,72 @@ The overall chartffow of the proposed MCCA-MOT approach for 3D multi-object trac
 ![KITTI test set Car](https://github.com/yuanfuture/MCCA-MOT/assets/113290883/582d9ed5-8e21-4c71-b342-d49049365728)
 ![KITTI test set Pedestrian](https://github.com/yuanfuture/MCCA-MOT/assets/113290883/258ef62a-c7d6-4895-b3ae-e7575093bf3c)
 
+# Dependencies
+Ubuntu 20.04.3 LTS
+Intel(R) Core(TM) i7-11700F @ 2.50GHz
+NVIDIA GeForce GTX 1080 Ti*2
+python: 3.8.16
+pytorch: 1.9.1
+Torchvision: 0.10.1
+CUDA: 11.1
+CUDNN: 8.0.5
+
+# Started
+
+#### *1. Clone the github repository.*
+
+```
+git clone https://github.com/wangxiyang2022/DeepFusionMOT
+```
+
+#### *2. Dataset preparation*
+
+ Please download the official KITTI [object tracking dataset](http://www.cvlibs.net/datasets/kitti/eval_tracking.php).
+
+The final dataset organization should be like this:
+
+```
+DeepFusionMOT
+├── data
+│   ├── kitti
+│   │   │── tracking
+│   │   │   │──testing
+|   │   │   │   ├──calib
+|   │   │   │   |    ├──0000.txt
+|   │   │   │   |    ├──....txt
+|   │   │   │   |    └──0028.txt
+|   │   │   │   ├──image_02
+|   │   │   │   |    ├──0000
+|   │   │   │   |    ├──....
+|   │   │   │   |    └──0028
+|   │   │   │   ├──oxts
+|   │   │   │   |    ├──0000.txt
+|   │   │   │   |    ├──....
+|   │   │   │   |    └──0028.txt
+|   │   │   │   ├──label_02
+|   │   │   │   |    ├──0000.txt
+|   │   │   │   |    ├──....txt
+|   │   │   │   |    └──0028.txt
+|   │   │   │   ├──velodyne
+|   │   │   │   |    ├──0000
+|   │   │   │   |    ├──....
+|   │   │   │   |    └──0028  
+│   │   │   │──training  # the structure is same as testing set
+|   │   │   │   ├──calib
+|   │   │   │   ├──image_02
+|   │   │   │   ├──pose
+|   │   │   │   ├──label_02
+|   │   │   │   └──velodyne 
+```
+
+#### *3. Install dependency*
+
+```
+cd your_path/DeepFusionMOT
+pip install -r requirements.txt
+```
+
+
 
 
 
