@@ -29,53 +29,29 @@ CUDNN: 8.0.5
 #### *1. Clone the github repository.*
 
 ```
-git clone https://github.com/wangxiyang2022/DeepFusionMOT
+git clone https://github.com/yuanfuture/MCCA-MOT
 ```
 
 #### *2. Dataset preparation*
 
- Please download the official KITTI [object tracking dataset](http://www.cvlibs.net/datasets/kitti/eval_tracking.php).
+Please go to KITTI official to download the required datasets. [object tracking dataset](http://www.cvlibs.net/datasets/kitti/eval_tracking.php).
 
 The final dataset organization should be like this:
 
-```
-DeepFusionMOT
-├── data
-│   ├── kitti
-│   │   │── tracking
-│   │   │   │──testing
-|   │   │   │   ├──calib
-|   │   │   │   |    ├──0000.txt
-|   │   │   │   |    ├──....txt
-|   │   │   │   |    └──0028.txt
-|   │   │   │   ├──image_02
-|   │   │   │   |    ├──0000
-|   │   │   │   |    ├──....
-|   │   │   │   |    └──0028
-|   │   │   │   ├──oxts
-|   │   │   │   |    ├──0000.txt
-|   │   │   │   |    ├──....
-|   │   │   │   |    └──0028.txt
-|   │   │   │   ├──label_02
-|   │   │   │   |    ├──0000.txt
-|   │   │   │   |    ├──....txt
-|   │   │   │   |    └──0028.txt
-|   │   │   │   ├──velodyne
-|   │   │   │   |    ├──0000
-|   │   │   │   |    ├──....
-|   │   │   │   |    └──0028  
-│   │   │   │──training  # the structure is same as testing set
-|   │   │   │   ├──calib
-|   │   │   │   ├──image_02
-|   │   │   │   ├──pose
-|   │   │   │   ├──label_02
-|   │   │   │   └──velodyne 
-```
+    ```
+    MCCA-MOT
+    ├── data
+    │   ├── kitti
+    │   │   │── training
+    │   │   │   ├──calib & velodyne & label_02 & image_02 & depth_2 & (optional: planes) 
+    │   │   │── testing
+    │   │   │   ├──calib & velodyne & image_02 
+    ```
 
 #### *3. Install dependency*
 
 ```
-cd your_path/DeepFusionMOT
+cd your_path/MCCA-MOT
 pip install -r requirements.txt
 ```
 
