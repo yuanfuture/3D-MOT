@@ -1,0 +1,25 @@
+dataset: 'kitti'
+
+#--dataset path--
+data_root: '/media/LHY/MCCA-MOT/datasets/kitti/'
+
+#--calib path--
+calib_path: 'datasets/kitti/train/calib_train'
+#calib_path: 'datasets/kitti/test/calib_test'
+
+#--image path--
+image_path: 'datasets/kitti/train/image_02_train'
+#image_path: 'datasets/kitti/test/image_02_test'
+
+#--label path--
+label_path: 'datasets/kitti/train/label_02'
+
+#--image save path--
+image_save_path: '/media/LHY/MCCA-MOT/results/'
+
+#--data save path--
+data_save_path: '/media/LHY/MCCA-MOT/evaluation/results/'
+
+#--detection path--
+3D_detections_path: '/media/LHY/MCCA-MOT/data/detection/3D'
+2D_detections_path: '/media/LHY/MCCA-MOT/data/detection/2D'
