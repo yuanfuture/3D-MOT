@@ -2,8 +2,6 @@
 ![image](https://github.com/yuanfuture/MCCA-MOT/assets/113290883/bc03b4c2-02bb-439f-bd96-1fc88fba73c7)
 
 ![fig.2 Framework](https://github.com/yuanfuture/MCCA-MOT/assets/113290883/51965e35-ae17-4b94-83a7-0be159109e37)
-The overall chartffow of the proposed MCCA-MOT approach for 3D multi-object tracking.
-
 # Abstract
 Due to duplicate checking, please see the paper for details
 
@@ -17,9 +15,6 @@ Due to duplicate checking, please see the paper for details
 
 
 # Dependencies
-#### Ubuntu 20.04.3 LTS
-#### Intel(R) Core(TM) i7-11700F @ 2.50GHz<br>
-#### NVIDIA GeForce GTX 1080 Ti*2<br>
 #### python: 3.8.16<br>
 #### pytorch: 1.9.1<br>
 #### Torchvision: 0.10.1<br>
