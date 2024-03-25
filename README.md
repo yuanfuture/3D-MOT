@@ -5,7 +5,6 @@
 <br>
 
 ![framework](https://github.com/yuanfuture/MCCA-MOT/assets/113290883/52f52b18-d583-46d1-a96e-c8933b2ce77a)
-The overall chartflow of the proposed MCCA-MOT approach for 3D multi-object tracking.
 
 # Abstract
 
