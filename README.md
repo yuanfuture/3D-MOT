@@ -3,8 +3,9 @@
 <image src = "https://github.com/yuanfuture/MCCA-MOT/assets/113290883/bc03b4c2-02bb-439f-bd96-1fc88fba73c7">
 </div>
 <br>
-    
-![fig.2 Framework](https://github.com/yuanfuture/MCCA-MOT/assets/113290883/51965e35-ae17-4b94-83a7-0be159109e37)
+
+![framework](https://github.com/yuanfuture/MCCA-MOT/assets/113290883/52f52b18-d583-46d1-a96e-c8933b2ce77a)
+
 # Abstract
 3D multi-object tracking is an important component of autonomous driving technology. Recent 3D multi-object tracking methods still suffer from issues such as information loss during the fusion of multimodal features, weak discriminative power of the association matrix, and poor robustness of single similarity measure. To address these problems, this paper proposes a Multimodal Collaboration-guided Cascade Association network for 3D multi-object tracking (MCCA-MOT). We designed an adaptive diffusion fusion method for point cloud features, effectively solving the information loss problem. Then, we introduced a feature collaborative fusion method for fine-grained fusion of object features, further enhancing the distinctiveness of the object features. Finally, the designed multi-similarity measure-driven cascading association method effectively strengthened the discriminative power of the association matrix and the robustness of data association. Extensive experiments on the KITTI dataset have demonstrated the superiority of our proposed method in various performance metrics, indicating our framework possesses strong object recognition, localization, and association capabilities, effectively dealing with challenges such as small objects, occlusions, identity switches, and trajectory fragmentation.
 
