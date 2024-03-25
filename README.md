@@ -6,7 +6,7 @@
     
 ![fig.2 Framework](https://github.com/yuanfuture/MCCA-MOT/assets/113290883/51965e35-ae17-4b94-83a7-0be159109e37)
 # Abstract
-Due to the problem of duplicate checking, please see the paper for details now, and supplement will be made after subsequent publication
+
 
 # Cascade association
 ![Cascade association algorithm](https://github.com/yuanfuture/MCCA-MOT/assets/113290883/2da988da-92f9-4fd1-af9a-c76664fb38e5)
