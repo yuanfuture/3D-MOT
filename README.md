@@ -9,11 +9,6 @@
 # Abstract
 In consideration of the duplicate rate requirement at the time of submission of the article, the abstract has been removed and will be added again later.
 
-
-# Cascade association
-![Cascade association algorithm](https://github.com/yuanfuture/MCCA-MOT/assets/113290883/2da988da-92f9-4fd1-af9a-c76664fb38e5)
-
-
 # Perfoemance
 ![KITTI test set Car](https://github.com/yuanfuture/MCCA-MOT/assets/113290883/dbf42a72-dc32-4e0e-aa99-088de2a64558)
 ![KITTI test set Pedestrian](https://github.com/yuanfuture/MCCA-MOT/assets/113290883/258ef62a-c7d6-4895-b3ae-e7575093bf3c)
