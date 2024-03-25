@@ -7,7 +7,7 @@
 ![framework](https://github.com/yuanfuture/MCCA-MOT/assets/113290883/52f52b18-d583-46d1-a96e-c8933b2ce77a)
 
 # Abstract
-Considering the requirements for originality in article submissions, the abstract has been removed and will be supplemented again later.
+In consideration of the duplicate rate requirement at the time of submission of the article, the abstract has been removed and will be added again later.
 
 
 # Cascade association
