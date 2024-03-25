@@ -85,7 +85,7 @@ If you find this work useful, please consider to cite our paper:
 
 ```
 @ARTICLE{  
-author={},  
+author={Hengyuan Liu},  
 journal={},   
 title={MCCA-MOT: Multimodal Collaboration-Guided Cascade Association Network for 3D Multi-Object Tracking},   
 year={2024},  volume={},  number={},  pages={},  doi={}
